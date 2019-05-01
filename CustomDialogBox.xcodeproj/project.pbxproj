@@ -12,6 +12,11 @@
 		3D3433542279DEAA0075E846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3433522279DEAA0075E846 /* Main.storyboard */; };
 		3D3433562279DEAC0075E846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3433552279DEAC0075E846 /* Assets.xcassets */; };
 		3D3433592279DEAC0075E846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3433572279DEAC0075E846 /* LaunchScreen.storyboard */; };
+		3D3433612279DF920075E846 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3433602279DF920075E846 /* Modal.swift */; };
+		3D3433632279EE910075E846 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3433622279EE910075E846 /* CustomAlertView.swift */; };
+		3D343367227A00ED0075E846 /* CustomAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D343366227A00ED0075E846 /* CustomAlert.xib */; };
+		3D343369227A048F0075E846 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D343368227A048F0075E846 /* CustomAlert.swift */; };
+		3D34336B227A0D890075E846 /* CustomAlertView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D34336A227A0D890075E846 /* CustomAlertView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		3D3433552279DEAC0075E846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D3433582279DEAC0075E846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D34335A2279DEAC0075E846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3433602279DF920075E846 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		3D3433622279EE910075E846 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		3D343366227A00ED0075E846 /* CustomAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAlert.xib; sourceTree = "<group>"; };
+		3D343368227A048F0075E846 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		3D34336A227A0D890075E846 /* CustomAlertView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +70,21 @@
 				3D3433552279DEAC0075E846 /* Assets.xcassets */,
 				3D3433572279DEAC0075E846 /* LaunchScreen.storyboard */,
 				3D34335A2279DEAC0075E846 /* Info.plist */,
+				3D3433602279DF920075E846 /* Modal.swift */,
+				3D3433622279EE910075E846 /* CustomAlertView.swift */,
+				3D34336C227A13180075E846 /* CustomAlert */,
+				3D34336A227A0D890075E846 /* CustomAlertView2.swift */,
 			);
 			path = CustomDialogBox;
+			sourceTree = "<group>";
+		};
+		3D34336C227A13180075E846 /* CustomAlert */ = {
+			isa = PBXGroup;
+			children = (
+				3D343366227A00ED0075E846 /* CustomAlert.xib */,
+				3D343368227A048F0075E846 /* CustomAlert.swift */,
+			);
+			path = CustomAlert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +148,7 @@
 				3D3433592279DEAC0075E846 /* LaunchScreen.storyboard in Resources */,
 				3D3433562279DEAC0075E846 /* Assets.xcassets in Resources */,
 				3D3433542279DEAA0075E846 /* Main.storyboard in Resources */,
+				3D343367227A00ED0075E846 /* CustomAlert.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D3433512279DEAA0075E846 /* ViewController.swift in Sources */,
+				3D34336B227A0D890075E846 /* CustomAlertView2.swift in Sources */,
+				3D343369227A048F0075E846 /* CustomAlert.swift in Sources */,
+				3D3433612279DF920075E846 /* Modal.swift in Sources */,
+				3D3433632279EE910075E846 /* CustomAlertView.swift in Sources */,
 				3D34334F2279DEAA0075E846 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
